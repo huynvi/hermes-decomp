@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/hbc-decomp",
+  "crates/hbc-decomp-cli",
+  "crates/hbc-decomp-mcp",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SymbioticSec/hermes-decomp"

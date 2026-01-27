@@ -1,0 +1,31 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Decompiled output
+*.decompiled.js
+examples/**/*.js
+!examples/**/*.original.js
+examples/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+CLAUDE.md
+PLAN.md
+THIRD_PARTY_NOTICES.md
+scripts/
