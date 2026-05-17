@@ -14,12 +14,12 @@ Get-ChildItem -Recurse -File | Where-Object {
 cargo build --release
 ```
 
-**use case:** https://labs.symbioticsec.ai/hubfs/PDF%20Downloads/CTF%20Writeup%20so-AIRMES.pdf
-
-[CTF Writeup so-AIRMES.pdf](https://github.com/user-attachments/files/27865818/CTF.Writeup.so-AIRMES.pdf)
+**use case:** 
+- https://labs.symbioticsec.ai/hubfs/PDF%20Downloads/CTF%20Writeup%20so-AIRMES.pdf
+- [CTF Writeup so-AIRMES.pdf](https://github.com/user-attachments/files/27865818/CTF.Writeup.so-AIRMES.pdf)
 
 **pre-built binary**
-
+- https://github.com/huynvi/hermes-decomp/blob/main/hermes-decomp.exe
 
 
 
