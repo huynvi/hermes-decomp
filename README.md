@@ -18,6 +18,10 @@ cargo build --release
 
 [CTF Writeup so-AIRMES.pdf](https://github.com/user-attachments/files/27865818/CTF.Writeup.so-AIRMES.pdf)
 
+**pre-built binary**
+
+
+
 
 
 ---
