@@ -25,7 +25,8 @@ hermes-decomp decompile index.android.bundle --output output.js
 **pre-built binary**
 - https://github.com/huynvi/hermes-decomp/blob/main/hermes-decomp.exe
 
-
+**script to reduce noise**
+- https://github.com/huynvi/hermes-decomp/blob/main/test.py
 
 
 ---
