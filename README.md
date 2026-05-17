@@ -1,3 +1,27 @@
+**fix: build issue on Windows**
+
+```
+cd "C:\Users\abc\xyz\hermes-decomp"
+
+Get-ChildItem -Recurse -File | Where-Object {
+    $_.FullName -match "bytecode_formats\.rs$"
+} | ForEach-Object {
+    (Get-Content $_.FullName -Raw) `
+        -replace 'resources\\bytecode\\', 'resources/bytecode/' |
+    Set-Content $_.FullName
+}
+
+cargo build --release
+```
+
+**use case:** https://labs.symbioticsec.ai/hubfs/PDF%20Downloads/CTF%20Writeup%20so-AIRMES.pdf
+
+[CTF Writeup so-AIRMES.pdf](https://github.com/user-attachments/files/27865818/CTF.Writeup.so-AIRMES.pdf)
+
+
+
+---
+
 # Hermes Bytecode Decompiler
 
 A Rust-based decompiler for Hermes bytecode files (`.hbc`), the JavaScript engine used by React Native applications.
