@@ -28,6 +28,11 @@ hermes-decomp decompile index.android.bundle --output output.js
 **script to reduce noise**
 - https://github.com/huynvi/hermes-decomp/blob/main/test.py
 
+**List modules**
+
+```
+sls -Pattern "^// === Module" .\output.js | Select-Object Line
+```
 
 ---
 
